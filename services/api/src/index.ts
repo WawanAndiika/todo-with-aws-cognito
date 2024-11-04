@@ -1,7 +1,7 @@
 import { Hono } from 'hono';
 import { Client } from '@neondatabase/serverless';
 
-const connectionString = "postgresql://todo_owner:3SbmXe0EYizk@ep-lucky-mouse-a1b02he5.ap-southeast-1.aws.neon.tech/todo?sslmode=require";
+const connectionString = "DB_POSTGRE_URL";
 
 const app = new Hono();
 
